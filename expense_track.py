@@ -110,7 +110,7 @@ def create_gui():
     input_frame = ttk.Frame(root, padding="10")
     input_frame.pack(fill="x", pady=10)
 
-    ttk.Label(input_frame, text="Date (YYYY-MM-DD):").grid(row=0, column=0, padx=5, pady=5)
+    ttk.Label(input_frame, text="Date:").grid(row=0, column=0, padx=5, pady=5)
     date_entry = ttk.Entry(input_frame)
     date_entry.grid(row=0, column=1, padx=5, pady=5)
 
